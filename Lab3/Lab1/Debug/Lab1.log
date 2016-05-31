@@ -1,0 +1,29 @@
+﻿Build started 05.05.2016 15:58:33.
+     1>Project "D:\Study\3 course\КПО\Lab3\Lab1\Lab1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Lab1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Lab1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Circle.cpp Lab1.cpp MyFunctions.cpp Rectangle.cpp Shape.cpp Triangle.cpp
+         Triangle.cpp
+         Shape.cpp
+         Rectangle.cpp
+         MyFunctions.cpp
+         Lab1.cpp
+         Circle.cpp
+         Generating Code...
+     1>d:\study\3 course\кпо\lab3\lab1\lab1.cpp(31): warning C4715: 'GetFiguresName' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Study\3 course\КПО\Lab3\Debug\Lab1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Study\3 course\КПО\Lab3\Debug\Lab1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Study\3 course\КПО\Lab3\Debug\Lab1.lib" /MACHINE:X86 Debug\Circle.obj
+         Debug\Lab1.obj
+         Debug\MyFunctions.obj
+         Debug\Rectangle.obj
+         Debug\Shape.obj
+         Debug\stdafx.obj
+         Debug\Triangle.obj
+     1>Lab1.obj : error LNK2001: unresolved external symbol "private: static class CCircle * CircleCreator::m_instance" (?m_instance@CircleCreator@@0PAVCCircle@@A)
+     1>D:\Study\3 course\КПО\Lab3\Debug\Lab1.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "D:\Study\3 course\КПО\Lab3\Lab1\Lab1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:18.75
